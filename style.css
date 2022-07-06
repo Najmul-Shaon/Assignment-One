@@ -6,20 +6,28 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.top-banner-header{
+#top-header{
+    margin-top: 4%;
     font-size: 50px;
     color: whitesmoke;
     text-align: center;
     font-weight: 700;
     
 }
+#second-top-header{
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 700;
+}
 
 #top-banner-paragraph{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 30%;
     margin-right: 30%;
+    margin-bottom: 3%;
     
     
 }
@@ -29,7 +37,7 @@ body{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    margin: 45%;
+    margin: 44%;
     padding: 1%;
 
 }
@@ -43,18 +51,24 @@ body{
 }
 
 #inspired-paragraph{
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
     
 
 }
+#amount-banner-section{
+    display: flex;
+    margin-left: 25%;
+    
+
+}
 
 
-.amount-banner{
-    background-color: rgba(218, 218, 218, 0.651);
-    padding: 10px;
+.amount-button{
+    background-color: rgba(218, 218, 218, 0.1);
+    padding:1% 2% 1% 2%;
     margin: 5px;
     border-radius: 2px;
     font-size: 25px;
@@ -62,24 +76,29 @@ body{
     
 }
 
-.marked-Banner{
-    background-color: rgba(255, 199, 227, 0.603);
-    padding: 10px;
+#marked-button{
+    background-color: rgba(255, 199, 227, 0.2);
+    padding: 1% 2% 1% 2%;
     margin: 5px;
     border-radius: 5px;
     font-size: 25px;
-    border: 1px solid red;
-
-}
-
-#amount-banner-section{
-    display: flex;
-    margin-left: 30%;
-    
+    border: 1px solid tomato;
 
 }
 
 #footer{
     background-color: rgb(10, 10, 37);
     padding: 65px;
+}
+
+#other-amount{
+    text-align: center;
+}
+
+hr{
+    width: 70%;
+}
+
+.anchor-margin{
+    margin-top: 100%;
 }
