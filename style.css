@@ -3,7 +3,6 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 2px;
-    ;
 }
 #top-banner-header{
     margin-top: 200px;
@@ -36,4 +35,11 @@ h1{
 #footer{
     background-color: rgb(10, 10, 37);
     padding: 65px;
+}
+
+.amount-banner{
+    background-color: rgb(218, 218, 218);
+   margin-left: 50%;
+
+
 }
