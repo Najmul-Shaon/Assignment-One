@@ -41,8 +41,7 @@ body{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    margin: 0% 44% 44% 44%;
-    padding: 1%;
+    margin-left: 45%;
 
 }
 
@@ -82,15 +81,10 @@ body{
     border: 1px solid tomato;
 
 }
-
-
-
-#other-amount{
+#manual-tk{
+    border: none;
+    border-bottom: 1px solid black;
     text-align: center;
-    border:0px;
-    border-bottom: 1px solid #7c7c7c;
-    border
-
 }
 
 .plan-flex{
