@@ -1,18 +1,18 @@
 body{
-    background-image: url("donate-today-main/image/donation06.jpg");
+    background-image: url("donate-today-main/image/donation16.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 2px;
 }
-#top-banner-header{
-    margin-top: 200px;
-}
-h1{
-    color: white;
+
+.top-banner-header{
+    font-size: 50px;
+    color: whitesmoke;
     text-align: center;
-    font-size: 65px;
     font-weight: 700;
+    
 }
+
 #top-banner-paragraph{
     color: white;
     text-align: center;
@@ -32,14 +32,30 @@ h1{
 
 }
 
-#footer{
-    background-color: rgb(10, 10, 37);
-    padding: 65px;
+#donate-banner-header{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 250px;
+    font-weight: 700;
+
 }
+
 
 .amount-banner{
     background-color: rgb(218, 218, 218);
-   margin-left: 50%;
+}
+
+#amount-banner-section{
+    display: flex;
+}
+.amount-banner-padding{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+}
 
 
+#footer{
+    background-color: rgb(10, 10, 37);
+    padding: 65px;
 }
