@@ -53,6 +53,28 @@ body{
 
 }
 
+.contribute-banner{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.contribute-banner h1{
+    font-size:40px ;
+}
+
+.contribute-banner a{
+    background-color: tomato;
+    border-radius: 5%;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contribute-banner img{
+    width: 70%;
+    
+}
+
+
 
 .amount-banner-section{
     display: flex;
