@@ -83,8 +83,12 @@ body{
 }
 #manual-tk{
     border: none;
-    border-bottom: 1px solid black;
-    text-align: center;
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+
+hr{
+    width: 70%;
 }
 
 .plan-flex{
