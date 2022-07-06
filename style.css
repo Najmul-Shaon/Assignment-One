@@ -37,12 +37,12 @@ body{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    margin: 44%;
+    margin: 0% 44% 44% 44%;
     padding: 1%;
 
 }
 
-#donate-banner-header{
+.donate-banner-header{
     text-align: center;
     font-size: 40px;
     margin-top: 250px;
@@ -50,7 +50,7 @@ body{
 
 }
 
-#inspired-paragraph{
+.inspired-paragraph{
     font-size: 16px;
     text-align: center;
     margin-left: 15%;
@@ -97,8 +97,4 @@ body{
 
 hr{
     width: 70%;
-}
-
-.anchor-margin{
-    margin-top: 100%;
 }
