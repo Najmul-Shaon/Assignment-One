@@ -55,7 +55,7 @@ body{
 }
 
 
-#amount-banner-section{
+.amount-banner-section{
     display: flex;
     margin-left: 25%;
     
@@ -67,7 +67,7 @@ body{
     background-color: rgba(218, 218, 218, 0.1);
     padding:1% 2% 1% 2%;
     margin: 5px;
-    border-radius: 2px;
+    border-radius: 5px;
     font-size: 25px;
 
     
@@ -94,4 +94,28 @@ body{
 
 hr{
     width: 70%;
+}
+
+.plan-box{
+    padding:2%;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.plan-box p{
+    font-size: 15px;
+}
+
+#box-pest-color{
+    background-color: rgba(237, 245, 246);
+
+}
+
+#box-pink-color{
+    background-color: rgba(255, 238, 238);
+
+}
+
+#box-off-white-color{
+    background-color: rgba(255, 244, 214);
+
 }
