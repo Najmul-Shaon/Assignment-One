@@ -32,9 +32,6 @@ body{
     margin-right: 15%;
 }
 
-
-
-
 .donate-button{
     background-color: tomato;
     border-radius: 5%;
@@ -50,7 +47,6 @@ body{
     font-size: 40px;
     margin-top: 250px;
     font-weight: 700;
-
 }
 
 .contribute-banner{
@@ -58,6 +54,7 @@ body{
     padding-left: 5%;
     padding-top: 10%;
 }
+
 .contribute-banner h1{
     font-size:40px ;
 }
@@ -69,29 +66,22 @@ body{
     font-size: 20px;
     text-decoration: none;
 }
+
 .contribute-banner img{
-    width: 70%;
-    
+    width: 70%;    
 }
-
-
 
 .amount-banner-section{
     display: flex;
     margin-left: 25%;
-    
-
 }
-
 
 .amount-button{
     background-color: rgba(218, 218, 218, 0.5);
     padding:1% 2% 1% 2%;
     margin: 5px;
     border-radius: 5px;
-    font-size: 25px;
-
-    
+    font-size: 25px;    
 }
 
 #marked-button{
@@ -101,8 +91,8 @@ body{
     border-radius: 5px;
     font-size: 25px;
     border: 1px solid tomato;
-
 }
+
 #manual-tk{
     border: none;
     margin-left: 45%;
@@ -117,15 +107,12 @@ hr{
     display: flex;
 }
 
-
 .plan-box{
     border-radius: 5px;
-
-
 }
+
 .plan-box p{
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
 
 #box-pest-color{
@@ -133,7 +120,6 @@ hr{
     margin-top: 5px;
     margin-left: 100px;
     border-radius: 5px;
-
 }
 
 #box-pink-color{
@@ -141,7 +127,6 @@ hr{
     padding:1% 2% 1% 2%;
     margin: 5px;
     border-radius: 5px;
-
 }
 
 #box-off-white-color{
@@ -175,7 +160,6 @@ hr{
     background-color: rgb(239, 224, 243);
     border: none;
     padding: 5px;
-
 }
 
 #footer-design{
