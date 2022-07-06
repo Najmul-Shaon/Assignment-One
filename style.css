@@ -21,16 +21,20 @@ body{
     font-weight: 700;
 }
 
-#top-banner-paragraph{
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 3%;
-    
-    
+#top-paragraph{
+    color: white; 
 }
+
+.inspired-paragraph{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+
 .donate-button{
     background-color: tomato;
     border-radius: 5%;
@@ -50,14 +54,7 @@ body{
 
 }
 
-.inspired-paragraph{
-    font-size: 16px;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    
 
-}
 #amount-banner-section{
     display: flex;
     margin-left: 25%;
