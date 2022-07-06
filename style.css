@@ -64,7 +64,7 @@ body{
 
 
 .amount-button{
-    background-color: rgba(218, 218, 218, 0.1);
+    background-color: rgba(218, 218, 218, 0.5);
     padding:1% 2% 1% 2%;
     margin: 5px;
     border-radius: 5px;
@@ -74,7 +74,7 @@ body{
 }
 
 #marked-button{
-    background-color: rgba(255, 199, 227, 0.2);
+    background-color: rgba(255, 199, 227, 0.6);
     padding: 1% 2% 1% 2%;
     margin: 5px;
     border-radius: 5px;
@@ -83,39 +83,92 @@ body{
 
 }
 
-#footer{
-    background-color: rgb(10, 10, 37);
-    padding: 65px;
-}
+
 
 #other-amount{
     text-align: center;
+    border:0px;
+    border-bottom: 1px solid #7c7c7c;
+    border
+
 }
 
-hr{
-    width: 70%;
+.plan-flex{
+    display: flex;
 }
+
 
 .plan-box{
-    padding:2%;
-    margin-right: 15px;
     border-radius: 5px;
+
+
 }
 .plan-box p{
     font-size: 15px;
+    
 }
 
 #box-pest-color{
     background-color: rgba(237, 245, 246);
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 5px;
 
 }
 
 #box-pink-color{
     background-color: rgba(255, 238, 238);
+    padding:1% 2% 1% 2%;
+    margin: 5px;
+    border-radius: 5px;
 
 }
 
 #box-off-white-color{
     background-color: rgba(255, 244, 214);
+    padding:1% 2% 1% 2%;
+    margin: 5px;
+    border-radius: 5px;
+}
 
+.plan-box img{
+    margin: 10% 0% 0% 5%;
+    width: 15%;
+    height: 20%;
+}
+.subscribe-button{
+    background-color: rgb(226, 221, 222);
+    text-align: center;
+    padding: 50px;
+    margin: 60px;
+}
+.subscribe-button button{
+    color: white;
+    background-color: tomato;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    margin-left: 0px;
+}
+.subscribe-button input{
+    background-color: rgb(239, 224, 243);
+    border: none;
+    padding: 5px;
+
+}
+
+#footer-design{
+    background-color: rgb(10, 10, 37);
+    padding: 65px;
+    text-align: center;
+    color: white;
+}
+
+#footer{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: tomato;
+    padding-bottom: 20px;
 }
